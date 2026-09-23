@@ -153,6 +153,18 @@ p {
   color: var(--primary);
 }
 
+.btn-white {
+  background-color: var(--white);
+  color: var(--primary);
+  border-color: transparent;
+}
+
+.btn-white:hover {
+  background-color: var(--light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
 /* Header */
 .top-bar {
   background-color: var(--primary-hover);
